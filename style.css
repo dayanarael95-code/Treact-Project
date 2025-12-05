@@ -66,6 +66,44 @@ nav {
     padding-bottom: 4px;
 }
 
+.nav__logo--img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav__logo--title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 12px;
+    padding-bottom: 2px;
+    letter-spacing: 0.6px;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+.nav__link {
+    margin: 0 24px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+    letter-spacing: .35px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav__link--primary {
+    background-color: rgba(80, 17, 204);
+    color: #fff;
+    margin: 0;
+    margin-top: 2px;
+    padding: 10px 32px;
+    border-radius: 9999px;
+    border: none;
+    width: auto;
+}
 
 .btn__menu {
     display: none;
