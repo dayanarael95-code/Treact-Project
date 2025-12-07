@@ -228,10 +228,17 @@ header .row {
 
 .header__customers--title {
     margin-top: 80px;
-    opacity: 25%;
-    font-size: 14px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6;
 }
 
+.header__customers {
+    margin-top: 16px;
+    padding-right: 128px;
+    opacity: 0.5;
+}
 
 
 
