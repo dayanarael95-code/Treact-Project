@@ -15,7 +15,7 @@ body {
 
 .row {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -27,6 +27,21 @@ body {
 
 .container {
     padding: 96px 0;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 1.25;
 }
 
 .purple {
@@ -179,12 +194,45 @@ HEADER / ABOUT US ↓
 
 */
 
-
 header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.header__description {
+    width: 40%;
+}
+
+.header__description--para {
+    margin: 32px 0;
+}
+
+.header__email {
+    display: flex;
+    margin: 24px 0;
+}
+
+.header__email--input {
+    width: 100%;
+    padding: 20px 192px 20px 32px;
+}
+
+.header__email--btn {
+    background-color: #6415ff;
+    color: white;
+    font-size: 16px;
+    margin: 8px;
+    width: 160px;
+}
+
+.header__customers--title {
+    margin-top: 80px;
+    opacity: 25%;
+    font-size: 14px;
+}
+
+
 
 
 /* 
