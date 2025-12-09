@@ -215,15 +215,31 @@ header .row {
 
 .header__email--input {
     width: 100%;
+    border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
     padding: 20px 192px 20px 32px;
+    color: rgb(36, 62, 99);
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: border-color 300ms;
 }
 
 .header__email--btn {
+    z-index: 2;
     background-color: #6415ff;
+    border-radius: 500px;
     color: white;
     font-size: 16px;
+    font-weight: 700;
     margin: 8px;
     width: 160px;
+    border: none;
+    color: #fff;
+    height: calc(100% - 16px);
 }
 
 .header__customers--title {
@@ -238,8 +254,13 @@ header .row {
     margin-top: 16px;
     padding-right: 128px;
     opacity: 0.5;
+    height: 32px;
+    width: auto;
 }
 
+header {
+    position: relative;
+}
 
 
 /* 
@@ -265,7 +286,6 @@ FEATURES ↓
 QUALITY WORK ↓
 
 */
-
 
 #quality .row {
     display: flex;
