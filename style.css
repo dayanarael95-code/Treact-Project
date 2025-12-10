@@ -367,6 +367,20 @@ QUALITY WORK ↓
 
 */
 
+.section__para {
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
+.section__title {
+    letter-spacing: .025em;
+    margin: 16px 0;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
 .quality__grid {
     transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
     width: 80px;
@@ -377,7 +391,7 @@ QUALITY WORK ↓
     fill: rgb(100, 21, 255);
     --tw-text-opacity: 1;
     color: rgba(100, 21, 255, var(--tw-text--opacity));
-    z-index: 0;
+    z-index: -1;
     display: block;
 }
 
@@ -396,6 +410,9 @@ QUALITY WORK ↓
     align-items: center;
 }
 
+#quality .btn{
+    margin-top: 32px;
+}
 
 /* 
 
