@@ -75,6 +75,13 @@ section {
     letter-spacing: .025em;
 }
 
+.section__para {
+    font-weight: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
 .btn {
     background-color: #6415ff;
     color: white;
@@ -368,12 +375,6 @@ QUALITY WORK ↓
 
 */
 
-.section__para {
-    font-weight: 500;
-    color: #7c8ba1;
-    line-height: 1.625;
-}
-
 .quality__title {
     font-size: 52px;
     font-weight: 900;
@@ -552,6 +553,11 @@ VALUES ↓
     margin-top: 16px;
     line-height: 1.625;
     color: #718096;
+}
+
+.values__img {
+    display: flex;
+    margin-left: 45px;
 }
 
 #values .row {
