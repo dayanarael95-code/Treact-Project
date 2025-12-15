@@ -317,6 +317,7 @@ header .row {
 }
 
 header {
+    position: relative;
 }
 
 
